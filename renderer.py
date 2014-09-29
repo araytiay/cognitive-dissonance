@@ -14,7 +14,7 @@ def render(thingy, display):
 
     midpoint = display.get_height() // 2
 
-    height = thingy.image.get_heigth()
+    height = thingy.image.get_height()
     width = thingy.image.get_width()
     x = thingy.x
     y = midpoint - thingy.y
@@ -24,6 +24,3 @@ def render(thingy, display):
     display.blit(thingy.image, coords)
 
 render(thingy, display)
-
-
-
