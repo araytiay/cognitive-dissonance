@@ -1,4 +1,4 @@
-#! /usr/local/bin/python3.4
+#! /opt/local/bin/python3.2
 
 import pygame
 
